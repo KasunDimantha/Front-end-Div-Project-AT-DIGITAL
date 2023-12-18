@@ -19,6 +19,7 @@ export default function Top_Navigation() {
                   <li>CAREERS</li>
                 </ul>
             </div>
+            <i className='bar'><ion-icon name="menu-outline"></ion-icon></i>
           
         </div>
     </>

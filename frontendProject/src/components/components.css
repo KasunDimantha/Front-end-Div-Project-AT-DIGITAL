@@ -8,8 +8,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     width: 1440px;
     height: 77px;
+}
+
+.close{
+    display: none;
+}
+
+.bar{
+    display: none;
 }
 
 
@@ -45,6 +54,8 @@
 .hero{
     height: 1440px;
     height: 700px;
+    position: relative;
+    object-fit: cover;
 }
 
 .HeroImg{
@@ -111,17 +122,18 @@
     align-items: center;
 }
 
+
 .frame498img img{
     width: 414px;
     height: 414px;
 }
 
-.frame92{
-    width: 475px;
+.frame498-92{
+    width: 485px;
     height: 187px;
-    margin-left: 140px;
+    margin-left: 130px;
 }
-.frame92 h2{
+.frame498-92 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
     font-weight: 600;
@@ -129,12 +141,12 @@
     margin-bottom: 18px;
 }
 
-.frame92 p{
+.frame498-92 p{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
-.frame92 button{
+.frame498-92 button{
     padding: 12px 20px 12px 20px;
     border-radius: 4px;
     border: none;
@@ -149,6 +161,7 @@
     margin-top: 22px;
 }
 
+
 .fram499{
     width: 1064px;
     height: 414px;
@@ -157,10 +170,43 @@
     display: flex;
     align-items: center;
 }
+.frame499img img{
+    width: 414px;
+    height: 414px;
+}
 .frame499-92{
-    margin-left: 0;
+    width: 542px;
     margin-right: 140px;
 }
+
+.frame499-92 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgba(107, 60, 201, 1);
+    margin-bottom: 18px;
+}
+
+.frame499-92 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frame499-92 button{
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(242, 141, 53, 1);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 22px;
+}
+
 
 /*---------------------------------------------------------*/
 
@@ -255,4 +301,321 @@
     width: 16px;
     transform: rotate(-90deg);
     
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------*/
+
+@media (max-width: 1200px){
+    .navBar{
+        width: 1200px;
+    }
+
+    .HeroImg{
+        width: 1200px;
+        object-fit: cover;
+    }
+
+    .Frame497{
+        width: 622px;
+    }
+
+    .fram498{
+        width: 896px;
+        height: 346px;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .frame498img img{
+        width: 346px;
+        height: 346px;
+    }
+    .frame498-92{
+        width: 530px;
+        margin-left: 70px;
+    }
+
+
+    .fram499{
+        width: 896px;
+        height: 346px;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .frame499-92{
+        width: 542px;
+        margin-right: 40px;
+    }
+    .frame499img img{
+        width: 346px;
+        height: 346px;
+    }
+
+    .footer{
+        width: 1200px;
+    }
+
+    .Frame501 {
+        margin-right: 70px;
+    }
+    
+    .Frame496{
+        margin-right: 30px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .navBar{
+        width: 768px;
+    }
+    .WhiteLogo{
+        padding-left: 50px;
+    }
+    .Frame497{
+        position: relative;
+        width: 768px;
+        height: 258px;
+        top: -10px;
+        left: 0px;  
+    }
+    .text497 {
+        width: 700px;
+        height: 160px; 
+        padding-bottom: 0px;
+    }
+
+    .HeroImg{
+        width: 768px;
+        height: 448px;
+        object-fit: cover;
+    }
+
+    .fram498{
+        width: 688px;
+        height: 275px;
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+
+    .frame498img img{
+        width: 275px;
+        height: 275px;
+    }
+    .frame498-92{
+        width: 393px;
+        margin-left: 30px;
+    }
+
+    .fram499{
+        width: 688px;
+        height: 275px;
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+
+    .frame499img img{
+        width: 275px;
+        height: 275px;
+    }
+    .frame499-92{
+        width: 393px;
+        margin-right: 30px;
+    }
+
+    .footer{
+        width: 768px;
+    }
+
+    .Frame503{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Frame502{
+        justify-content: space-between;
+        margin-top: 80px;
+        
+    }
+    .Frame496{
+        margin-right: 170px;
+    }
+}
+
+
+@media (max-width: 375px){
+    .navBar{
+        width: 375px;
+    }
+
+    .fram496{
+        display: flex;
+        flex-direction: column;   
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+
+    .WhiteLogo{
+        padding-left: 20px;
+    }
+
+    .bar{
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    .hero{
+        height: 454px;
+    }
+
+    .HeroImg{
+        width: 375px;
+        height: 218px;
+        object-fit: cover;
+    }
+
+    .Frame497{
+        position: relative;
+        width: 375px;
+        height: 294px;
+        top: -10px;
+        left: 0px;  
+    }
+    .text497 {
+        width: 375px;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 0;
+        padding-bottom: 15px;
+
+    }
+
+    .text497 h3{
+        font-size: 36px;
+        line-height: 36px;
+    
+    }
+
+    .button497{
+        padding-left: 15px;
+    }
+
+    .fram498{
+        width: 335px;
+        height: 572.82px;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frame498-92{
+        width: 335px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frame498-92 h2{
+        text-align: center;
+    }
+
+    .frame498-92 p{
+        text-align: center;
+    }
+
+
+    .fram499{
+        width: 335px;
+        height: 572.82px;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frame499-92{
+        width: 335px;
+        margin-left: 10px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 220px;
+    }
+    .frame499img{
+        position: relative;
+        bottom: 345px;
+        left: 15px;
+    }
+
+    .frame499-92 h2{
+        text-align: center;
+    }
+
+    .frame499-92 p{
+        text-align: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .Frame502{
+        display: flex;
+        flex-direction: column;
+    }
+    .Frame503{
+        margin-left: 25px;
+        padding-top: 25px;
+    }
+
+    .Frame500text{
+        width: 325px;
+    }
+
+    .Frame501Head, .Frame496Head{
+        margin-top: 30px;
+    }
+
+    .Frame501Con, .Frame496Con{
+        width: 335px;
+
+    }
+
+    .Frame501Con li, .Frame496Con li{
+        padding-top: 15px;
+        
+    }
+
+    .Frame505Line{
+        width: 335px;
+    }
+
 }

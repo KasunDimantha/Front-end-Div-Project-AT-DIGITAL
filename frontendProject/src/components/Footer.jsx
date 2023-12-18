@@ -20,10 +20,10 @@ export default function Footer() {
 
                     <div className="Frame501">
                         <div className="Frame501Head">
-                            <h3>Our Technologies</h3>
+                            <h>Our Technologies</h>
                         </div>
                         <div className="Frame501Con">
-                            <>ReactJS</>
+                            <li>ReactJS</li>
                             <li>Gatsby</li>
                             <li>NextJS</li>
                             <li>NodeJS</li>
@@ -34,7 +34,7 @@ export default function Footer() {
 
                     <div className="Frame496">
                         <div className="Frame496Head">
-                            <h3>Our Services</h3>
+                            <h>Our Services</h>
                         </div>
                         <div className="Frame496Con">
                             <li>Social media Marketing</li>
