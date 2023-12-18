@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    background-color: rgba(107, 60, 201, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 77px;
+}
+
+
+
+.WhiteLogo{
+    width: 238.89px;
+    height: 25px;
+    padding-left: 80px;
+}
+
+.logoall{
+    position: relative;
+    top: -11.11px;
+}
+
+.fram496{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.fram496 li {
+    list-style: none;
+    padding-right: 28px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+
+.hero{
+    height: 1440px;
+    height: 700px;
+}
+
+.HeroImg{
+    width: 1440px;
+    height: 700px;
+    top: 77px;
+}
+
+.Frame497{
+    position: relative;
+    width: 630px;
+    height: 306px;
+    top: -350px;
+    left: 80px;
+    background: linear-gradient(to right, rgba(28, 189, 221, 1), rgba(77, 202, 121, 1));
+}
+
+.text497 {
+    width: 560px;
+    height: 192px; 
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 32px;
+    padding-bottom: 40px;
+}
+
+.text497 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.button497{
+    padding-left: 40px;
+}
+
+.button497 button{
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(242, 141, 53, 1);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* //////////////////////////////// */
+
+.fram498{
+    width: 1064px;
+    height: 414px;
+    margin-top: 108px;
+    margin-left: 188px;
+    display: flex;
+    align-items: center;
+}
+
+.frame498img img{
+    width: 414px;
+    height: 414px;
+}
+
+.frame92{
+    width: 475px;
+    height: 187px;
+    margin-left: 140px;
+}
+.frame92 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgba(107, 60, 201, 1);
+    margin-bottom: 18px;
+}
+
+.frame92 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frame92 button{
+    padding: 12px 20px 12px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(242, 141, 53, 1);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 22px;
+}
+
+.fram499{
+    width: 1064px;
+    height: 414px;
+    margin-top: 108px;
+    margin-left: 188px;
+    display: flex;
+    align-items: center;
+}
+.frame499-92{
+    margin-left: 0;
+    margin-right: 140px;
+}
+
+/*---------------------------------------------------------*/
+
+.footer{
+    background-color: rgba(107, 60, 201, 1);
+    width: 1440px;
+}
+
+.Frame503{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding-top: 40px;
+}
+
+.Frame500{
+    width: 413px;
+    height: 102px;
+}
+
+.Frame501 {
+    margin-right: 100px;
+}
+
+.Frame496{
+    margin-right: 50px;
+}
+
+.Frame501Con, .Frame496Con{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Frame501Con li, .Frame496Con li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+.Frame500logo{
+    width: 238.89px;
+    height: 25px;
+
+}
+
+.Frame500text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+    line-height: 19.2px;
+}
+
+.Frame502{
+    display: flex;
+    justify-content: center;
+}
+
+.Frame501Head, .Frame496Head{
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.Frame505{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Frame505Line{
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 630px;
+    position: absolute;
+    
+}
+.Frame504{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+}
+
+.Frame504Line{
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 16px;
+    transform: rotate(-90deg);
+    
+}
